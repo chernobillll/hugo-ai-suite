@@ -37,6 +37,7 @@ Abre `http://localhost:3000`.
 
 ## Documentación
 
+- [Hugo OS Blueprint](docs/HUGO_OS_BLUEPRINT.md)
 - [Arquitectura](docs/ARCHITECTURE.md)
 - [Contribución](docs/CONTRIBUTING.md)
 - [Despliegue en Vercel](docs/DEPLOYMENT.md)
