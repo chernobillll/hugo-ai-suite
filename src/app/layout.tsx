@@ -27,13 +27,16 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  colorScheme: "dark",
-  themeColor: "#080b14",
+  colorScheme: "dark light",
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0f" },
+    { media: "(prefers-color-scheme: light)", color: "#f5f5f8" },
+  ],
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es">
+    <html lang="es" suppressHydrationWarning>
       <body>
         <a className="skip-link" href="#contenido">
           Saltar al contenido
